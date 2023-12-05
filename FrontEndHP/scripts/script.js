@@ -1,8 +1,9 @@
-const apiUrl = 'http://localhost:3000/personajes';
+const apiUrl = 'https://database-hp.vercel.app/libros';
 
 async function getData() {
     const response = await fetch(apiUrl);
     const result = await response.json();
-    console.log(result);
+    //console.log(result);
+    
 }
 getData();
