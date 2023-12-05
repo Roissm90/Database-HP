@@ -7,6 +7,7 @@ const librosSchema = new Schema(
         titulo: {type: String, require: true},
         año: {type: Number, require: true},
         sinopsis: {type: String, require: true},
+        picture: {type: String}
     },
     {
         timestamps: true
